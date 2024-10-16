@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- <haxelib name="crovown" version="0.0.1" path="/home/sergei/Projects/Crovown3" /> -->
+	<!-- <haxelib name="crovown" version="0.0.1" path="../Crovown3" /> -->
+	<haxelib name="crovown" />
+
+	<meta title="Logimimic" package="net.teslotik.logimimic" version="1.0.0" company="Teslotik" />
+	<app main="crovown.application.LimeApplication.LimeMain" path="Export" file="Logimimic" />
+
+	<!-- <app main="Test" path="Export" file="Test" /> -->
+
+	<haxelib name="lime" />
+
+	<haxeflag name="--macro" value='include("crovown.component")' />
+	<haxeflag name="--macro" value='include("crovown.plugin")' />
+	<haxeflag name="--macro" value='include("logimimic.plugin")' />
+	<haxeflag name="--macro" value='include("logimimic.component")' />
+
+	<source path="Sources" />
+
+	
+	<!-- <include path="/home/sergei/Projects/Crovown3/project.xml" /> -->
+</project>
